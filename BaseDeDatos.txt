@@ -1,0 +1,13 @@
+-- `mibarrio.com`.inventario definition
+
+CREATE TABLE `inventario` (
+  `IDProducto` varchar(16) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `NombreProducto` varchar(100) DEFAULT NULL,
+  `Categoria` varchar(100) DEFAULT NULL,
+  `Precio` float DEFAULT NULL,
+  `Cantidad` int DEFAULT NULL,
+  `Descripcion` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`IDProducto`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+#Juan Forero Desarrollador
